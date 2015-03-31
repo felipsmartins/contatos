@@ -3,9 +3,29 @@ body {
     padding-bottom: 40px;
 }
 
-.zf-green {
-    color: #68b604;
+.navbar-inverse {
+  background-color: #2D333B;
+  background-image: none;
+  color: #CAD2DA;
+
 }
+
+ .navbar-inverse .navbar-brand {
+  color: #CAD2DA;
+
+}
+.navbar-inverse .navbar-nav > .active > a {
+  background-image: none;
+  box-shadow: none;
+}
+
+.navbar-inverse .navbar-nav > .active > a, 
+.navbar-inverse .navbar-nav > .active > a:hover, 
+.navbar-inverse .navbar-nav > .active > a:focus {
+    background-color: #2D333B;
+    color: #CAD2DA;
+}
+
 
 .btn-success {
   background-color: #57a900;
@@ -28,10 +48,4 @@ body {
 
 .btn-success:active, .btn-success.active {
   background-color: #57a900;
-}
-
-div.container a.brand {
-    background: url("../img/zf2-logo.png") no-repeat scroll 0 10px transparent;
-    margin-left: 0;
-    padding: 8px 20px 12px 40px;
 }
