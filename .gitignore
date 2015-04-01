@@ -31,6 +31,7 @@ data/logs/
 data/cache/
 data/sessions/
 data/tmp/
+data/database/*.sqlite
 temp/
 
 # Local configs

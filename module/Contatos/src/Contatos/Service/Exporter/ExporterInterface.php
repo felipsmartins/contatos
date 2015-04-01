@@ -2,8 +2,7 @@
 
 namespace Contatos\Service\Exporter;
 
-interface ExporterInterface 
+interface ExporterInterface
 {
-	public function test();
-	
+    public function test();
 }

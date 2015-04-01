@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 namespace Contatos\Controller;
 
@@ -10,7 +10,7 @@ class IndexController extends AbstractActionController
     public function indexAction()
     {
         return new ViewModel([
-        	'test' => __METHOD__,
+            'test' => __METHOD__,
         ]);
     }
 }
